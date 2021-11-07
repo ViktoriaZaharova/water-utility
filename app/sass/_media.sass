@@ -1,0 +1,317 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px)
+  /**/
+
+
+
+@media only screen and (max-width: 1100px)
+  .card-header
+    padding: 20px
+
+  .card-body
+    padding: 20px
+
+@media only screen and (max-width: 1010px)
+  .container
+    max-width: 890px
+
+  .links-doc
+    &__text
+      background: transparent
+      color: #00407C
+      background-clip: initial
+      text-decoration: underline
+      -webkit-text-fill-color: initial
+      &:before
+        display: none
+
+  .payment-card-col
+    width: 35%
+    padding: 0 0 0 20px
+
+  .form-testimony
+    flex-direction: column
+    align-items: flex-start
+    label, button
+      width: 100%
+    label
+      margin: 0 0 5px
+    input, button
+      height: 38px
+
+  .payment-card-form
+    width: 30%
+
+  .payment-card__body
+    padding: 0 0 0 10px
+
+
+@media only screen and (max-width: 992px)
+  .logo
+    max-width: 361px
+
+  header
+    padding: 29px 0
+
+  .links-exit
+    display: none
+
+  .card-header
+    h3
+     br
+       display: block
+
+  .dropdown
+    padding: 0
+
+  .header-box
+    padding: 10px 20px
+
+
+  .links-accent
+    background: transparent
+    color: #00407C
+    background-clip: initial
+    text-decoration: underline
+    -webkit-text-fill-color: initial
+    &:before
+      display: none
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px)
+  .logo
+    max-width: 307px
+
+  header
+    padding: 25.5px
+    .header-box
+      display: none
+
+
+  .header-box
+    width: 100%
+    padding: 10px 30px
+    margin: 30px 0
+
+  .container
+    max-width: 662px
+
+  .name-user__icon
+    width: 32px
+    height: 32px
+    min-width: 32px
+
+  .dropdown
+    width: 100%
+
+  .dropdown-toggle
+    width: 100%
+    &:after
+      margin: 0 0 0 auto
+
+  .card-col
+    margin-bottom: 20px
+    &:last-child
+      margin-bottom: 0
+
+
+  .payment-card
+    padding: 20px
+
+  .cabinet
+    .header-box
+      padding: 12px 20px
+      margin: 20px 0
+
+    .name-user__text
+      &:after
+        display: none
+
+    .dropdown-toggle
+      position: relative
+      padding: 0 0 0 42px
+      flex-direction: column
+      align-items: flex-start
+      &:after
+        position: absolute
+        right: 0
+        top: 50%
+        transform: translate(0,-50%)
+        margin: 0
+
+    .name-user__icon
+      position: absolute
+      left: 0
+      top: 50%
+      transform: translate(0,-50%)
+      margin: 0
+
+  .tab-pane
+    padding: 0
+
+  .attention-tab
+    padding: 20px
+
+  .payment-card-col
+    width: 50%
+
+  .payment-card-form
+    width: 100%
+    padding: 30px 0 0
+
+  .form-testimony
+    flex-direction: row
+    align-items: stretch
+    label
+      margin: 0
+    input, button
+      height: 60px
+    label, button
+      width: calc(50% - 5px)
+
+  .dropdown-menu-cabinet
+    .dropdown-toggle
+      flex-direction: row
+      justify-content: flex-start
+      align-items: center
+      padding: 14px 30px
+      &:after
+        position: relative
+        top: 0
+        right: 0
+        transform: none
+        margin: 0 0 0 auto
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px)
+  header
+    padding: 24px 0
+
+  .header-box
+    padding: 12px 20px
+    margin: 20px 0
+
+  .name-user__text
+    &:after
+      display: none
+
+  .dropdown-toggle
+    position: relative
+    padding: 0 0 0 42px
+    flex-direction: column
+    align-items: flex-start
+    &:after
+      position: absolute
+      right: 0
+      top: 50%
+      transform: translate(0,-50%)
+      margin: 0
+
+  .name-user__icon
+    position: absolute
+    left: 0
+    top: 50%
+    transform: translate(0,-50%)
+    margin: 0
+
+  h1, .tab-title
+    font-size: 24px
+    margin: 0 0 20px
+
+  .mb-20
+    margin-bottom: 10px
+
+  .card-header
+    h3
+      font-size: 16px
+      br
+        display: none
+
+  .card
+    .box-text
+      font-size: 12px
+
+  .card-body, .attention
+    font-size: 12px
+    line-height: 18px
+
+  body
+    font-size: 12px
+    line-height: 18px
+
+  .price
+    font-size: 16px
+
+  .links-doc
+    font-size: 12px
+
+  input
+    font-size: 12px
+
+  .card-col
+    margin-bottom: 10px
+
+  footer
+    padding: 40px 0
+
+  .copyright
+    font-size: 12px
+
+  .attention-tab
+    margin: 0 0 20px
+
+  .payment-card
+    position: relative
+    font-size: 12px
+    &__icon
+      width: 48px
+      height: 48px
+      min-width: 48px
+      position: absolute
+      top: 20px
+      right: 20px
+      padding: 14px 10px
+      &:before
+        width: calc(100% - 4px)
+        height: calc(100% - 4px)
+    &__body
+      width: 100%
+      padding: 0
+      flex-direction: column
+      align-items: flex-start
+    h3
+      font-size: 18px
+    .box-text
+      margin: 5px 0
+    h5
+      margin: 0 0 5px
+
+  .links-accent
+    font-size: 12px
+
+  .payment-card-col
+    padding: 0
+    width: 100%
+    margin: 0 0 10px
+    &:last-child
+      margin: 0
+
+  .form-testimony input, .form-testimony button
+    height: 50px
+
+  .form-testimony input
+    font-size: 14px
+
+  .payment-card-form
+    padding: 5px 0 0
+
+
+
+@media only screen and (max-width: 380px)
+  .container
+    max-width: 348px
+
