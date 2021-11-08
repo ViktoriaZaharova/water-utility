@@ -419,7 +419,8 @@ header {
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  border: none; }
   .dropdown-toggle:hover {
     color: #000; }
   .dropdown-toggle:after {
@@ -697,6 +698,12 @@ footer {
   .payment-card h3 {
     font-size: 20px;
     font-weight: 600; }
+
+[type=text], [type=button], [type=submit] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-border-radius: 0; }
 
 .form-testimony {
   width: 100%;
